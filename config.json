@@ -4,10 +4,10 @@
 		"key": "/iBlog2/ssl/iblog2.key",
 		"cert": "/iBlog2/ssl/iblog2.crt"
 	},
-	"mongoUrl": "mongodb://127.0.0.1/stav-zone",
+	"mongoUrl": "mongodb://132.232.19.246/iBlog2",
 	"redis": {
 		"enable": false,
-		"host": "127.0.0.1",
+		"host": "132.232.19.246",
 		"port": 6379
 	}
 }
