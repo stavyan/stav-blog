@@ -63,7 +63,7 @@
         if (query) {
             var that = this;
             $(that).addClass("disabled");
-            appid = '20151219000008011';
+            appid = '20180826000199034';
             key = translateKey;
             if (!translateKey) {
                 swal({
