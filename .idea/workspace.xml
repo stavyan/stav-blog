@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc4453c0-4a42-44b7-ac34-c161a924199b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/metisMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/aboutmanage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/aboutmanage.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/articlemanage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/articlemanage.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/cachemanage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/cachemanage.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/categorymanage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/categorymanage.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/comments.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/comments.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/editarticle.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/editarticle.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/exception.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/exception.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/guestbook.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/guestbook.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/newarticle.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/newarticle.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/settings.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/settings.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/metisMenu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/metisMenu.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,29 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/settings.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="537">
               <caret line="169" column="86" selection-start-line="169" selection-start-column="86" selection-end-line="169" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articlemanage.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/articlemanage.pug">
+      <file leaf-file-name="metisMenu.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/metisMenu.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cachemanage.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/cachemanage.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="44" column="101" lean-forward="true" selection-start-line="44" selection-start-column="101" selection-end-line="45" selection-end-column="86" />
+            <state relative-caret-position="38">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -169,8 +150,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="203" />
-    <option name="y" value="23" />
+    <option name="x" value="71" />
+    <option name="y" value="31" />
     <option name="width" value="1865" />
     <option name="height" value="992" />
   </component>
@@ -211,6 +192,14 @@
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
               <item name="_metismenu@2.7.9@metismenu" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stav-zone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stav-zone" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="_metismenu@2.7.9@metismenu" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="metisMenu.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="stav-zone" type="b2602c69:ProjectViewProjectNode" />
@@ -302,26 +291,27 @@
       <option name="presentableId" value="Default" />
       <updated>1535263004428</updated>
       <workItem from="1535263014603" duration="6168000" />
-      <workItem from="1535461548109" duration="1101000" />
+      <workItem from="1535461548109" duration="1288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7269000" />
+    <option name="totallyTimeSpent" value="7456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="23" width="1865" height="992" extended-state="0" />
+    <frame x="71" y="31" width="1865" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -330,7 +320,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,9 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/metisMenu.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/aboutmanage.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -584,10 +570,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/metisMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/settings.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="537">
           <caret line="169" column="86" selection-start-line="169" selection-start-column="86" selection-end-line="169" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/metisMenu.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
