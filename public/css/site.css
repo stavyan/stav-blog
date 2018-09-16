@@ -156,6 +156,21 @@ blockquote {
     border-color: #01b7ee;
 }
 
+.navbar-default .navbar-nav > .active:nth-child(4) a{
+    color: #f06;
+    border-color: #f06;
+}
+
+.navbar-default .navbar-nav > .active:nth-child(5) a{
+    color: #63bbd0;
+    border-color: #63bbd0;
+}
+
+.navbar-default .navbar-nav > .active:nth-child(6) a{
+    color: #5a191b;
+    border-color: #5a191b;
+}
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background: transparent;
 }

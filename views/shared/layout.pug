@@ -44,6 +44,18 @@ html(lang='zh-CN')
                             a(href='/blog')
                                 i.fa.fa-pen-nib.fa-fw
                                 |  #{__("layout.blog")}
+                        li
+                            a(href='/project')
+                                i.fa.fa-user.fa-fw
+                                |  #{__("layout.project")}
+                        li
+                            a(href='/tools')
+                                i.fa.fa-user.fa-fw
+                                |  #{__("layout.tools")}
+                        li
+                            a(href='/resume')
+                                i.fa.fa-user.fa-fw
+                                |  #{__("layout.resume")}
                         if(settings.ShowGuestbook === 'true')
                             li
                                 a(href='/guestbook')

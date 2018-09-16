@@ -41,6 +41,9 @@
 	},
 	"layout": {
 		"blog": "Blog",
+		"project": "Project",
+		"tools": "Tools",
+		"resume": "Resume",
 		"message": "Message",
 		"about": "About"
 	},

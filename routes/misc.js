@@ -21,6 +21,57 @@ router.get('/guestbook', (req, res, next) => {
     });
 });
 
+// 工具页面
+router.get('/tools', (req, res, next) => {
+    tool.getConfig(path.join(__dirname, '../config/settings.json'), (err, settings) => {
+        if (err) {
+            next(err);
+        } else {
+            if (settings.ShowGuestbook !== 'true') {
+                return next();
+            }
+            res.render('misc/tools', {
+                title: `${settings.SiteName} - ${res.__('misc.msg')}`,
+                settings
+            });
+        }
+    });
+});
+
+// 项目页面
+router.get('/project', (req, res, next) => {
+    tool.getConfig(path.join(__dirname, '../config/settings.json'), (err, settings) => {
+        if (err) {
+            next(err);
+        } else {
+            if (settings.ShowGuestbook !== 'true') {
+                return next();
+            }
+            res.render('misc/project', {
+                title: `${settings.SiteName} - ${res.__('misc.msg')}`,
+                settings
+            });
+        }
+    });
+});
+
+// 简历页面
+router.get('/resume', (req, res, next) => {
+    tool.getConfig(path.join(__dirname, '../config/settings.json'), (err, settings) => {
+        if (err) {
+            next(err);
+        } else {
+            if (settings.ShowGuestbook !== 'true') {
+                return next();
+            }
+            res.render('misc/resume', {
+                title: `${settings.SiteName} - ${res.__('misc.msg')}`,
+                settings
+            });
+        }
+    });
+});
+
 // 关于页面
 router.get('/about', (req, res, next) => {
     async.parallel([

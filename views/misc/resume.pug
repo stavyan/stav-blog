@@ -1,0 +1,16 @@
+extends ../shared/layout
+block content
+    link(href='/static/sweetalert/dist/sweetalert.css', rel='stylesheet')
+    script(type='text/javascript', src='/static/sweetalert/dist/sweetalert.min.js', charset='utf-8')
+    .container-fluid.detail-container
+        .row
+            .col-sm-12.col-xs-12.col-md-8.col-md-offset-2.detail-wrap
+                h2=__("简历")
+        include ../shared/footer
+    include ../shared/top
+    script(type='text/javascript', src='/static/jquery/dist/jquery.min.js', charset='utf-8')
+    script(type='text/javascript', src='/static/bootstrap/dist/js/bootstrap.min.js', charset='utf-8')
+    script(type='text/javascript', src='/static/js/resume.js', charset='utf-8')
+    script.
+        var tools = [3];
+    script(type = 'text/javascript', src = '/static/js/top.js', charset = 'utf-8')
