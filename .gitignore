@@ -7,7 +7,7 @@ yarn-error.log*
 package-lock.json
 
 # idea
-.idea/
+.idea
 
 # Config
 config.json
