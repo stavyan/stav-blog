@@ -11,6 +11,7 @@ package-lock.json
 
 # Config
 config.json
+models/db.js
 
 # Runtime data
 pids
