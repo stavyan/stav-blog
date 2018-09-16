@@ -6,11 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 
-# logs
+# idea
 .idea/
 
 # Config
-config.*
+config.json
 models/db.js
 
 # Runtime data
