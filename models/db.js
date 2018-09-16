@@ -5,7 +5,7 @@ const extend = require('mongoose-schema-extend');
 const i18n = require('./i18n');
 
 // use custom mongodb url or localhost
-mongoose.connect(dbPath || 'mongodb://127.0.0.1/stav-zone');
+mongoose.connect(dbPath || 'mongodb://stav:qq617946852@132.232.19.246:17017/blogrift?authSource=admin&authMechanism=SCRAM-SHA-1');
 const db = mongoose.connection;
 db.on('error', err => {
     console.error(i18n.__('error.db_1') + err);
