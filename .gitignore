@@ -9,6 +9,9 @@ package-lock.json
 # logs
 .idea/
 
+# config
+config.json
+models/db.js
 
 # Runtime data
 pids
