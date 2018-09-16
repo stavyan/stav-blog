@@ -10,6 +10,7 @@ package-lock.json
 .idea*
 
 # Config
+config/*
 config.json
 models/db.js
 
