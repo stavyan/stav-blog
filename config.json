@@ -6,7 +6,7 @@
 	},
 	"mongoUrl": "mongodb://127.0.0.1/stav-zone",
 	"redis": {
-		"enable": false,
+		"enable": false,11
 		"host": "127.0.0.1",
 		"port": 6379
 	}
