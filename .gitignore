@@ -10,8 +10,7 @@ package-lock.json
 .idea*
 
 # Config
-config.json
-models/db.js
+
 
 # Runtime data
 pids
