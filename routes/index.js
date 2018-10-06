@@ -47,4 +47,13 @@ router.get('/', (req, res, next) => {
     });
 });
 
+/**
+ *@des giibook 路由
+ *@author stav stavyan@qq.com
+ *@date 2018/10/06 17:16:14
+ */
+router.get('/stavblog', (req, res, next) => {
+    res.render('stavblog/index'）
+});
+
 module.exports = router;
