@@ -34,7 +34,7 @@
 先上预览图：
 
 主页
-![index](https://stavyan.github.io/stav-zone/preview/index.png)
+![home](https://stavyan.github.io/stav-zone/preview/home.png)
 
 文章页
 ![article](https://stavyan.github.io/stav-zone/preview/article.png)
