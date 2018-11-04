@@ -11,6 +11,17 @@ const url = require('url');
 const showdown = require('showdown');
 
 // 分类页面
+router.get('/category', (req, res, next) => {
+    category.getAll((err, categories) => {
+        if (err) {
+            cb(err);
+        } else {
+            cb(null, categories);
+        }
+    });
+});
+
+// 分类页面
 router.get('/:category?', (req, res, next) => {
     const currentCate = req.params.category || '';
     async.parallel([
