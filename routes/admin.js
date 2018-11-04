@@ -93,6 +93,15 @@ router.post('/getCateFilter', (req, res, next) => {
         }
     });
 });
+// 获取分类数据，不走缓存
+router.post('/getCategory', (req, res, next) => {
+    categoryModel.find((err, categories) => {
+        if (err) {
+            return callback(err);
+        }
+        return callback(null, categories);
+    });
+});
 
 // 获取文章列表数据
 router.post('/getArticles', (req, res, next) => {
