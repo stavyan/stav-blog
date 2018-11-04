@@ -12,11 +12,11 @@ const showdown = require('showdown');
 
 // 分类页面
 router.get('/category', (req, res, next) => {
-    category.getAll((err, categories) => {
+    category.getAll((err, data) => {
         if (err) {
-            cb(err);
+            next(err);
         } else {
-            cb(null, categories);
+            res.json(data);
         }
     });
 });
