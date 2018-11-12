@@ -47,7 +47,7 @@ router.get('/', (req, res, next) => {
     });
 });
 
-/* Gitbook. */
+/* Stav-Blog. */
 router.get('/stavblog', function(req, res, next) {
     res.render('stavblog/index', { title: '斯塔夫部落格' });
 });
@@ -56,8 +56,9 @@ router.get('/stavblog', function(req, res, next) {
 router.get('/resume201810', function(req, res, next) {
     res.render('resume201810/index', { title: '个人简历201810' });
 });
-/* Resume. */
-router.get('/Front-End-Standards', function(req, res, next) {
+
+/* Front-End-Standards. */
+router.get('/frontstandards', function(req, res, next) {
     res.render('frontendstandards/index', { title: 'Web前端规范' });
 });
 
