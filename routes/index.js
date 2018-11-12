@@ -47,15 +47,15 @@ router.get('/', (req, res, next) => {
     });
 });
 
-/* Stav-Blog. */
-router.get('/stavblog', function(req, res, next) {
-    res.render('stavblog/index', { title: '斯塔夫部落格' });
-});
-
-/* Resume. */
-router.get('/resume201810', function(req, res, next) {
-    res.render('resume201810/index', { title: '个人简历201810' });
-});
+// /* Stav-Blog. */
+// router.get('/stavblog', function(req, res, next) {
+//     res.render('stavblog/index', { title: '斯塔夫部落格' });
+// });
+//
+// /* Resume. */
+// router.get('/resume201810', function(req, res, next) {
+//     res.render('resume201810/index', { title: '个人简历201810' });
+// });
 
 /* Front-End-Standards. */
 router.get('/frontstandards', function(req, res, next) {
