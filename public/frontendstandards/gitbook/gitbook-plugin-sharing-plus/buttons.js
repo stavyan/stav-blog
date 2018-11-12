@@ -23,7 +23,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         linkedin: site('Linkedin', 'linkedin', 'https://www.linkedin.com/shareArticle?mini=true&url=' + url),
         messenger: site('Facebook Messenger', 'commenting', 'fb-messenger://share?link=' + url),
         pocket: site('Pocket', 'get-pocket', 'https://getpocket.com/save?url=' + url + '&title=' + title),
-        qq: site('QQ', 'qq', 'http://connect.qq.com/widget/shareqq/index.pug?url=' + url + '&title=' + title),
+        qq: site('QQ', 'qq', 'http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&title=' + title),
         qzone: site('QQ空间', 'star', 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&title=' + title),
         stumbleupon: site('StumbleUpon', 'stumbleupon', 'http://www.stumbleupon.com/submit?url=' + url + '&title=' + title),
         twitter: site('Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + title + '&text=' + title),
